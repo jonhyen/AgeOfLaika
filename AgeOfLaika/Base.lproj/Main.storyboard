@@ -33,15 +33,6 @@
                                     <rect key="frame" x="16" y="115" width="124" height="21"/>
                                 </variation>
                             </label>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YR8-4t-hzt">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <color key="textColor" red="0.36078432202339172" green="0.72156864404678345" blue="0.36078432202339172" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="218" width="368" height="59"/>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jTL-k7-mQW">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Convert">
@@ -71,26 +62,49 @@
                                     <rect key="frame" x="3" y="36" width="368" height="51"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCy-eg-Ec1">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Convert to Real Dog Years">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="110" y="205" width="181" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="convertToRealDogYearsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dW1-zk-KTY"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YR8-4t-hzt">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" red="0.36078432202339172" green="0.72156864404678345" blue="0.36078432202339172" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="243" width="368" height="59"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="2dV-9Y-Naq"/>
                                 <exclude reference="YFd-7I-Eyu"/>
-                                <exclude reference="YR8-4t-hzt"/>
                                 <exclude reference="jTL-k7-mQW"/>
                                 <exclude reference="OYT-wU-NCl"/>
                                 <exclude reference="n0f-k9-0kV"/>
+                                <exclude reference="eCy-eg-Ec1"/>
+                                <exclude reference="YR8-4t-hzt"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="2dV-9Y-Naq"/>
                                 <include reference="YFd-7I-Eyu"/>
-                                <include reference="YR8-4t-hzt"/>
                                 <include reference="jTL-k7-mQW"/>
                                 <include reference="OYT-wU-NCl"/>
                                 <include reference="n0f-k9-0kV"/>
+                                <include reference="eCy-eg-Ec1"/>
+                                <include reference="YR8-4t-hzt"/>
                             </mask>
                         </variation>
                     </view>
